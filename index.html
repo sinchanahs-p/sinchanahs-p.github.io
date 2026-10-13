@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinchana | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f7f5ff;
+            color: #272343;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #272343;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h2 {
+            color: #ffd803;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 90px 20px;
+            background: linear-gradient(135deg, #272343, #5e548e);
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 15px;
+        }
+
+        .hero span {
+            color: #ffd803;
+        }
+
+        .hero p {
+            margin: 15px auto;
+            max-width: 600px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #ffd803;
+            color: #272343;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 55px 10%;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #5e548e;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 15px auto;
+            border-radius: 15px;
+            max-width: 800px;
+            box-shadow: 0 4px 15px #27234312;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .skills span {
+            background: #e8e5ff;
+            padding: 10px 18px;
+            border-radius: 20px;
+        }
+
+        footer {
+            background: #272343;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 5px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Sinchana.</h2>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h1>Hello, I'm <span>Sinchana</span> 👋</h1>
+    <h3>Computer Science Engineering Student</h3>
+
+    <p>
+        Passionate about technology, software development,
+        and building useful digital solutions.
+        I'm continuously learning and improving my technical skills.
+    </p>
+
+    <a href="#projects" class="button">Explore My Projects</a>
+</div>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <div class="card">
+        <p>
+            I am a Computer Science Engineering student interested
+            in programming, web development, and Android application
+            development. I enjoy learning new technologies and
+            applying my knowledge through practical projects.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Java</span>
+        <span>Kotlin</span>
+        <span>Android Studio</span>
+        <span>GitHub</span>
+        <span>Problem Solving</span>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="card">
+        <h3>Local Job Finder — Android App</h3>
+        <p>
+            An Android application concept designed to connect
+            job seekers and students with nearby small businesses
+            offering job opportunities.
+        </p>
+        <p><strong>Technologies:</strong> Kotlin, Android Studio</p>
+    </div>
+
+    <div class="card">
+        <h3>FreshBite Cafeteria Website</h3>
+        <p>
+            A cafeteria website concept featuring menu information,
+            reservations, and contact details.
+        </p>
+        <p><strong>Technologies:</strong> HTML, CSS</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="card" style="text-align:center">
+        <p>Thank you for visiting my portfolio!</p>
+        <p>
+            GitHub:
+            <a href="https://github.com/sinchanahs-p"
+               target="_blank">View My GitHub Profile</a>
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Sinchana | Personal Portfolio</p>
+</footer>
+
+</body>
+</html>
